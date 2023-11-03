@@ -1,0 +1,1 @@
+import{D as r}from"./datetime86487.js";const e=function(t){return r.fromSQL(t).toFormat("dd/MM/yyyy")},o=function(t){return r.fromJSDate(t).toFormat("yyyy-LL-dd")},a=function(t){return r.fromFormat(t+"","dd/MM/yyyy").toFormat("yyyy-LL-dd")},m=function(t){return o(t)!="Invalid DateTime"?o(t):a(t)};export{m as a,e as f};
